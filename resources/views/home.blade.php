@@ -1,6 +1,5 @@
  @extends('layouts.app')
  @section('content')
-
      <!-- ═══════════════ SERVICES ═══════════════ -->
      <section id="services" class="py-24 relative">
          <div class="w-full px-6 sm:px-10 lg:px-16">
@@ -429,7 +428,7 @@
 
                          <!-- Download buttons -->
                          <div class="flex flex-wrap gap-4">
-                             <a href="#"
+                             <a href="/apismart24.apk"
                                  class="apk-btn flex items-center gap-3 px-6 py-3.5 rounded-xl text-[#080c14] font-semibold">
                                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
                                      <path
@@ -440,7 +439,7 @@
                                      <div class="text-sm font-bold">Android APK</div>
                                  </div>
                              </a>
-                             <a href="#"
+                             <a href="/apismart24.apk"
                                  class="flex items-center gap-3 px-6 py-3.5 rounded-xl border border-[rgba(0,229,255,0.25)] text-slate-300 hover:border-[#00e5ff]/50 hover:text-white transition-all font-medium">
                                  <svg class="w-5 h-5 text-[#00e5ff]" fill="none" stroke="currentColor"
                                      stroke-width="2" viewBox="0 0 24 24">
